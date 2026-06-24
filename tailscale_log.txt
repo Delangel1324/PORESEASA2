@@ -75,3 +75,23 @@
 2026/06/24 03:31:04 health(warnable=no-derp-connection): ok
 2026/06/24 03:31:04 [RATELIMIT] format("health(warnable=%s): ok")
 2026/06/24 03:31:04 magicsock: derp-17 connected; connGen=1
+2026/06/24 03:47:01 tailscaled got signal interrupt; shutting down
+2026/06/24 03:47:01 canceling captive portal context
+2026/06/24 03:47:01 control: client.Shutdown ...
+2026/06/24 03:47:01 control: updateRoutine: exiting
+2026/06/24 03:47:01 control: authRoutine: exiting
+2026/06/24 03:47:01 control: mapRoutine: exiting
+2026/06/24 03:47:01 control: Client.Shutdown done.
+2026/06/24 03:47:01 magicsock: closing connection to derp-17 (conn-close), age 15m57s
+2026/06/24 03:47:01 magicsock: 0 active derp conns
+2026/06/24 03:47:01 restarting systemd-resolved...
+2026/06/24 03:47:01 restarted systemd-resolved
+2026/06/24 03:47:01 monitor: RTM_DELROUTE: src=, dst=fe80::/64, gw=, outif=4, table=254
+2026/06/24 03:47:01 monitor: RTM_DELROUTE: src=, dst=fe80::172:9696:478:9fcf/128, gw=, outif=4, table=255
+2026/06/24 03:47:01 monitor: RTM_DELROUTE: src=, dst=ff00::/8, gw=, outif=4, table=255
+2026/06/24 03:47:01 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:254 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5210 Table:254 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/06/24 03:47:01 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:253 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5230 Table:253 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/06/24 03:47:01 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:0 Protocol:0 Scope:0 Type:7 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5250 Table:0 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/06/24 03:47:01 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:52 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5270 Table:52 Mark:0 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2026/06/24 03:47:01 flushing log.
+2026/06/24 03:47:01 logger closing down
